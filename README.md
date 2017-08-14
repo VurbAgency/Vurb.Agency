@@ -1,6 +1,6 @@
-# Vurb.Foundation
+# Vurb.Agency
 
-A web site for the Vurb.Foundation
+A web site for the Vurb.Agency
 
 ## Installing
 
