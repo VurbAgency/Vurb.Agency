@@ -1,7 +1,7 @@
 {
-  "name": "Vurb-Foundation",
-  "short_name": "Vurb-Foundation",
-  "description": "Site for the Vurb.Foundation",
+  "name": "Vurb-Agency",
+  "short_name": "Vurb-Agency",
+  "description": "Site for the Vurb.Agency",
   "start_url": "/",
   "display": "standalone"
 }
