@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.liquid %}
+
+  <body>
+
+    {% include header.liquid %}
+
+    <main>
+
+      <aside>
+        <h4>On this page</h4>
+        {% include toc.liquid html=content h_min=2 %}
+      </aside>
+
+      <article class="markdown-body">
+        {{ content }}
+      </article>
+
+    </main>
+  </body>
+
+</html>

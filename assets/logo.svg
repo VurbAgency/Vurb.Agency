@@ -1,0 +1,26 @@
+<svg width="904" height="1043" viewBox="0 0 904 1043" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>Agency Logo</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(-7369 -9514)">
+<g id="Agency Logo">
+<g id="Polygon">
+<use xlink:href="#path0_fill" transform="translate(7387.99 9535.51)"/>
+<mask id="mask0_outline_out">
+<rect id="mask0_outline_inv" fill="white" x="-19" y="-21" width="904" height="1042" transform="translate(7387.99 9535.51)"/>
+<use xlink:href="#path0_fill" fill="black" transform="translate(7387.99 9535.51)"/>
+</mask>
+<g mask="url(#mask0_outline_out)">
+<use xlink:href="#path1_stroke_2x" transform="translate(7387.99 9535.51)" fill="#FFFFFF"/>
+</g>
+</g>
+<g id="Polygon">
+<use xlink:href="#path2_fill" transform="translate(7387.99 9785.51)" fill="#FFFFFF"/>
+</g>
+</g>
+</g>
+<defs>
+<path id="path0_fill" d="M 433.013 0L 866.025 250L 866.025 750L 433.013 1000L 2.84217e-13 750L 0 250L 433.013 0Z"/>
+<path id="path1_stroke_2x" d="M 433.013 0L 442.013 -15.5885L 433.013 -20.7846L 424.013 -15.5885L 433.013 0ZM 866.025 250L 884.025 250L 884.025 239.608L 875.025 234.412L 866.025 250ZM 866.025 750L 875.025 765.588L 884.025 760.392L 884.025 750L 866.025 750ZM 433.013 1000L 424.013 1015.59L 433.013 1020.78L 442.013 1015.59L 433.013 1000ZM 2.84217e-13 750L -18 750L -18 760.392L -9 765.588L 2.84217e-13 750ZM 0 250L -9 234.412L -18 239.608L -18 250L 0 250ZM 424.013 15.5885L 857.025 265.588L 875.025 234.412L 442.013 -15.5885L 424.013 15.5885ZM 848.025 250L 848.025 750L 884.025 750L 884.025 250L 848.025 250ZM 857.025 734.412L 424.013 984.412L 442.013 1015.59L 875.025 765.588L 857.025 734.412ZM 442.013 984.412L 9 734.412L -9 765.588L 424.013 1015.59L 442.013 984.412ZM 18 750L 18 250L -18 250L -18 750L 18 750ZM 9 265.588L 442.013 15.5885L 424.013 -15.5885L -9 234.412L 9 265.588Z"/>
+<path id="path2_fill" fill-rule="evenodd" d="M 433.013 687.5L 866.025 437.5L 866.025 375L 433.013 625L 0 375L 0 437.5L 433.013 687.5ZM 866.025 312.5L 433.013 562.5L 0 312.5L 0 250L 433.013 500L 866.025 250L 866.025 312.5ZM 433.013 437.5L 866.025 187.5L 866.025 125L 433.013 375L 0 125L 0 187.5L 433.013 437.5ZM 866.025 62.5L 433.013 312.5L 0 62.5L 0 0L 433.013 250L 866.025 0L 866.025 62.5Z"/>
+</defs>
+</svg>

@@ -1,0 +1,149 @@
+@import url("github-markdown.css");
+@import url("rouge-highlight.css");
+@import url('https://fonts.googleapis.com/css?family=Muli:400,400i,700');
+
+body {
+  margin: 0; padding: 0;
+  position: absolute;
+  min-height: 100%;
+  min-width: 100%;
+  font-family: 'Muli', sans-serif;
+  background-color: #111;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(jindong-h-36186-small.jpg);
+  background-size: auto;
+  background-attachment: fixed;
+}
+
+a:link, a:visited {
+  text-decoration: underline;
+  color: inherit;
+}
+a:link {
+  text-decoration-color: blue;
+}
+a:visited {
+  text-decoration-color: purple;
+}
+a:link[href^='#'], a:visited[href^='#'] {
+  text-decoration-color: darkgrey;
+}
+a:hover {
+  background: rgba(0,0,0,0.05);
+}
+
+body>* {
+  max-width: 50em;
+  width: 100%;
+}
+
+header a:link {
+  padding: .5rem;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+header, header>a.site-title:link {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+header>a.site-title {
+  font-size: 2em;
+}
+header>a.site-title>* {
+  padding: .5rem;
+}
+header>a.site-title:link>img {
+  max-height: 3em;
+}
+header>a.site-title:link>p {
+  font-size: 1em;
+}
+@media screen and (max-width: 700px) {
+  header>a.site-title {
+    font-size: 1em;
+  }
+}
+
+header>ul {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+header>ul>li {
+  display: inline-block;
+  padding: .5em 0;
+}
+header>ul>li>a:link {
+  font-weight: 700;
+  background-color: rgba(0,0,0,0.8);
+}
+header>ul>li>a:hover {
+  background-color: rgba(0,0,0,1);
+}
+
+main {
+  flex: 1;
+  display: flex;
+}
+
+main aside {
+  flex: 1;
+  padding: 1em;
+  padding-top: 4em;
+  max-width: 15em;
+  background-color: rgba(255,255,255,0.8);
+  color: black;
+}
+main aside ul {
+  padding-left: 1em;
+}
+main aside h4 {
+  /* font-size: .75rem; */
+  text-transform: uppercase;
+  color: rgba(0,0,0,0.1);
+}
+main aside ul {
+  padding-left: 0;
+  list-style: none;
+}
+
+@media screen and (max-width: 700px) {
+  main aside {
+    display: none;
+  }
+}
+
+main aside li {
+  margin: .5em 0;
+}
+main aside>ul>li {
+  font-weight: bold;
+  padding-bottom: 0.5em;
+}
+main aside>ul>li>ul>li {
+  font-weight: normal;
+}
+main aside>ul>li>ul>li ul {
+  padding-left: 1em;
+}
+
+main article {
+  flex: 1;
+  max-width: 30em;
+  background-color: white;
+  padding: 4em;
+}
+@media screen and (max-width: 700px) {
+  main article {
+    padding: 2em;
+  }
+}
