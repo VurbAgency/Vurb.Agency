@@ -1,7 +1,0 @@
-{
-  "name": "Vurb-Agency",
-  "short_name": "Vurb-Agency",
-  "description": "Site for the Vurb.Agency",
-  "start_url": "/",
-  "display": "standalone"
-}
