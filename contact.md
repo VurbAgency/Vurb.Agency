@@ -6,8 +6,10 @@
 
 Postal address:
 
-Conradstraat 423 H  
-1018 NE Amsterdam  
+Vurb BV  
+FreedomLab Campus  
+Plantage Middenlaan 62  
+1018 DH Amsterdam  
 The Netherlands
 
 KvK n°: 69641900
